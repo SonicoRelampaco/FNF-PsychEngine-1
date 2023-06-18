@@ -200,8 +200,8 @@ class MainMenuState extends MusicBeatState
 			changeItem(-1);
 			changeItem(1);
 
-			char1.dance()
-			char1.updateHitbox()
+			char1.dance();
+			char1.updateHitbox();
 			char1.visible = true;
 		}
 		else
